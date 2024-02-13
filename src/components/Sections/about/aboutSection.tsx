@@ -11,8 +11,7 @@ export const AboutSection = () => {
   return (
     <div className="flex flex-col items-start text-start">
       <p className="mb-5">
-        I'm a Frontend React Developer with 2 years of professional experience
-        in a mid-level developer role.
+        I'm a Frontend React Developer with 2 years of professional experience.
       </p>
       <p className="mb-5">
         Committed to delivering high-quality results, I’m dedicated to

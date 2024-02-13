@@ -23,9 +23,9 @@ export const navList: NavListType[] = [
     section: ExperienceSection,
   },
   {
-    id: 'project',
-    href: '#project',
-    title: 'Project',
+    id: 'projects',
+    href: '#projects',
+    title: 'Projects',
     section: ProjectsSection,
   },
   {

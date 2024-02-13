@@ -11,7 +11,6 @@ export const ArrowRightIcon = () => {
         d="M15 19.5L7.5 12L15 4.5"
         stroke="#1D232A"
         stroke-width="2"
-        stroke-linecap="round"
         stroke-linejoin="round"
       />
     </svg>
