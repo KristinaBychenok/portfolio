@@ -63,7 +63,7 @@ export const experience: Experience[] = [
     location: 'Minsk, Belarus',
     date: 'November 2018 - August 2021',
     project: '',
-    stack: ['Autodesk'],
+    stack: ['Autodesk', 'AutoCAD', 'Revit', 'Robot Structural Analysis'],
     description: ['- Design buildings and structures.'],
   },
 ]

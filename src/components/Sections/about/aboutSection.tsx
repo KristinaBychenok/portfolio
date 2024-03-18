@@ -11,7 +11,9 @@ export const AboutSection = () => {
   return (
     <div className="flex flex-col items-start text-start">
       <p className="mb-5">
-        I'm a Frontend React Developer with 2 years of professional experience.
+        I am a Frontend developer with 2 years of experience, specializing in
+        technologies such as JavaScript, React, Redux, TypeScript, Next.js,
+        Node.js
       </p>
       <p className="mb-5">
         Committed to delivering high-quality results, I’m dedicated to
@@ -22,14 +24,21 @@ export const AboutSection = () => {
         {isTextOpen && (
           <>
             <p className="mb-5">
-              I collaborated closely with software development and testing team
-              members on a React application used by real users. My strength
-              lies in teamwork, and I have a solid understanding of task
-              estimation and agile development methodologies.
+              My role involves designing and implementing new features,
+              refactoring complex code, organizing component hierarchies,
+              providing hot-fixes, developing Storybook UI library, implementing
+              validation, backend connections, optimizing application for
+              improved user performance. I excel in solving urgent problems
+              carefully and possess strong soft skills, making me an effective
+              team player.
             </p>
             <p className="mb-5">
-              I also invested time in studying Next.js and Node.js, broadening
-              my skill set. Currently, I’m actively engaged in training in AWS.
+              Having recently learned Next.js and Node.js, I'm dedicated to
+              continuous growth in the field of programming.
+            </p>
+            <p className="mb-5">
+              I am comfortable with agile methodologies, and have a B2
+              proficiency level in English.
             </p>
             <p className="mb-5">
               In general, I'm a cheerful and enthusiastic individual. I love to
