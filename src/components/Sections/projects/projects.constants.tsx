@@ -116,8 +116,7 @@ export const projects: ProjectsType = [
         text: '',
       },
     ],
-    team:
-      '2 Front-end developers, 2 Back-end developers, Power Platform developer, 2 Testers, Designer, Project manager, Business analyst',
+    team: '2 Front-end developers, 2 Back-end developers, Power Platform developer, 2 Testers, Designer, Project manager, Business analyst',
     tasks: [
       '- Collaborated with software development and testing team members to design and develop robust solutions meeting client requirements for functionality, scalability, and performance. Contributed ideas and suggestions in team meetings.',
       '- Worked closely with senior software staff to produce new software solutions.',
@@ -166,6 +165,136 @@ export const projects: ProjectsType = [
         </a>
       </p>
     ),
+    stack: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Tailwind CSS',
+      'GIT',
+      'GitHub Pages',
+    ],
+  },
+  {
+    id: 3,
+    name: 'Daryauo piercing',
+    description: 'The platform for booking piercing services in Wrocław.',
+    text: (
+      <p>
+        <p>
+          This project is currently under development. I'm using technologies
+          such as{' '}
+          {<span className="font-bold">Next.js, React, Redux Toolkit</span>} for
+          its creation. Styles were written using{' '}
+          {<span className="font-bold">Tailwind CSS and MUI</span>}.
+        </p>
+      </p>
+    ),
+    clarification: (
+      <p>
+        Additionally, the project requires content to be displayed in Polish,
+        Russian, and English languages. For this functionality, I'm using
+        <span className="font-bold"> i18next</span>.
+      </p>
+    ),
+    imgs: [
+      {
+        src: `${BASE_URL}daryauo-piercing-page.png`,
+        text: (
+          <p>
+            The platform will include information about the piercing studio,
+            work portfolios with photos and descriptions, and reviews.
+          </p>
+        ),
+      },
+      {
+        src: `${BASE_URL}daryauo-piercing-form.png`,
+        text: (
+          <p>
+            The main feature at the moment is a form that users fill out to book
+            a procedure. After the user completes this form, I validate it and
+            send it to the server for further notifications about their booking.
+          </p>
+        ),
+      },
+    ],
+    stack: [
+      'Next.js',
+      'React',
+      'Redux Toolkit',
+      'TypeScript',
+      'Tailwind CSS',
+      'MUI',
+      'i18next',
+      'GIT',
+    ],
+    team: '1 Front-end developer, 1 Back-end developer, Designer',
+    tasks: [
+      '- Designed and developed robust solutions meeting client requirements for functionality, scalability, and performance.',
+      '- Worked with the React framework and Next.js, applying extensive experience in TypeScript and utilizing Redux to develop an application.',
+      '- Developed a project enabling users to book a piercing procedure, including a form for submission, form validation, and the creation of new components and hooks.',
+      '- Implemented functionality for language switching to view content in different languages.',
+      '- Optimized application for improved user performance, conducted code refactoring, and enhanced overall functionality.',
+      '- Integrated the backend to send data from the validated form to the server for further user notification about the booking, working with API requests.',
+      '- Developed screen layouts with information about the piercing studio, using the MUI library and Tailwind CSS.',
+    ],
+  },
+  {
+    id: 4,
+    name: 'New Energy Development s.r.o.',
+    description:
+      'The platform for a construction company in France to display their services, book services, and showcase a gallery of completed projects.',
+    text: (
+      <p>
+        <p>
+          This project is currently under development. I'm using technologies
+          such as{' '}
+          {<span className="font-bold">Next.js, React, Redux Toolkit</span>} for
+          its creation. Styles were written using{' '}
+          {<span className="font-bold">Tailwind CSS and MUI</span>}.
+        </p>
+      </p>
+    ),
+    clarification: (
+      <p>
+        Additionally, the project requires content to be displayed in English,
+        Russian, Ukrainian, French, Dutch, Italian, and German languages. For
+        this functionality, I'm using
+        <span className="font-bold"> i18next</span>.
+      </p>
+    ),
+    imgs: [
+      {
+        src: `${BASE_URL}development-page.png`,
+        text: (
+          <p>
+            <span className="font-bold">
+              Designs are also under development.
+            </span>{' '}
+            The platform will include information about the construction
+            company, work portfolios with photos and descriptions, and reviews.
+          </p>
+        ),
+      },
+    ],
+    stack: [
+      'Next.js',
+      'React',
+      'Redux Toolkit',
+      'TypeScript',
+      'Tailwind CSS',
+      'MUI',
+      'i18next',
+      'GIT',
+    ],
+    team: '1 Front-end developer, Designer',
+    tasks: [
+      '- Designed and developed robust solutions meeting client requirements for functionality, scalability, and performance.',
+      '- Worked with the React framework and Next.js, applying extensive experience in TypeScript and utilizing Redux to develop an application.',
+      '- Developed a project enabling users to book building services, including a form for submission, form validation, and the creation of new components and hooks.',
+      '- Implemented functionality for language switching to view content in different languages.',
+      '- Optimized application for improved user performance, conducted code refactoring, and enhanced overall functionality.',
+      '- Developed screen layouts with information about the construction company, using the MUI library and Tailwind CSS.',
+    ],
   },
 ]
 
@@ -174,7 +303,6 @@ export const customTheme = {
     base: 'p-6 flex-1 overflow-auto bg-yellow-50 bg-opacity-50',
   },
   header: {
-    base:
-      'flex items-start justify-between rounded-t bg-yellow-100 bg-opacity-50 border-b p-5',
+    base: 'flex items-start justify-between rounded-t bg-yellow-100 bg-opacity-50 border-b p-5',
   },
 }

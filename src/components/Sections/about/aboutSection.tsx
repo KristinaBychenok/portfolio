@@ -11,9 +11,9 @@ export const AboutSection = () => {
   return (
     <div className="flex flex-col items-start text-start">
       <p className="mb-5">
-        I am a Frontend developer with 2 years of experience, specializing in
-        technologies such as JavaScript, React, Redux, TypeScript, Next.js,
-        Node.js
+        I am a Frontend developer with almost 3 years of experience,
+        specializing in technologies such as JavaScript, React, Redux,
+        TypeScript, Next.js, Node.js
       </p>
       <p className="mb-5">
         Committed to delivering high-quality results, I’m dedicated to
@@ -33,11 +33,11 @@ export const AboutSection = () => {
               team player.
             </p>
             <p className="mb-5">
-              Having recently learned Next.js and Node.js, I'm dedicated to
-              continuous growth in the field of programming.
+              Having recently learned Node.js, I'm dedicated to continuous
+              growth in the field of programming.
             </p>
             <p className="mb-5">
-              I am comfortable with agile methodologies, and have a B2
+              I'm comfortable with agile methodologies, and have a B2
               proficiency level in English.
             </p>
             <p className="mb-5">

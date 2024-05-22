@@ -44,7 +44,7 @@ function App() {
         <div className="flex flex-col gap-[20px] xl:gap-[30px] max-lg:w-1/2 max-lg:self-center">
           <Navigation currentSection={currentSection} />
           <a
-            href="https://drive.google.com/file/d/1PmvhvHT0PDJuV9-tafmWQD3qw3obDpvC/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZKcz4-NIC8jJJ8CQCJGanCzC1XtWWNAG/view"
             target="_blank"
             className="flex justify-start lg:ml-32 xl:ml-44 w-64 max-lg:self-center"
           >

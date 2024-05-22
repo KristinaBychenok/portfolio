@@ -1,8 +1,8 @@
 export const education = [
   {
     name: 'Udemy',
-    title: 'React Developer, Next Developer',
-    date: 'Dec 2021 - Jan 2022, Oct 2023',
+    title: 'React Developer, Next Developer, Node.js Developer',
+    date: 'Dec 2021 - Jan 2022, Oct 2023, Apl 2024',
   },
   {
     name: 'The Rolling Scopes School',
