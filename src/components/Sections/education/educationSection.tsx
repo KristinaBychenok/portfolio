@@ -9,8 +9,8 @@ export const EducationSection = () => {
           <Card key={title}>
             <div className="flex flex-col justify-start text-start">
               <h3 className="font-bold text-base">{name}</h3>
-              <h3 className="text-base">{title}</h3>
-              <p className="italic pt-2.5">{date}</p>
+              <h3 className="text-sm md:text-base">{title}</h3>
+              <p className="italic pt-2.5 text-sm md:text-base">{date}</p>
             </div>
           </Card>
         )

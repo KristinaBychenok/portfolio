@@ -23,12 +23,12 @@ export const ContactsSection = () => {
   return (
     <>
       <Card>
-        <div className="flex flex-col gap-[10px]">
+        <div className="flex flex-col gap-[5px] md:gap-[10px]">
           <div className="flex flex-row items-center gap-[10px]">
             <button onClick={handleEmailClick}>
               <EmailIcon />
             </button>
-            <p>{contacts.email}</p>
+            <p className="text-sm md:text-base">{contacts.email}</p>
           </div>
           <div className="flex flex-row items-center gap-[10px]">
             <Tooltip
@@ -44,18 +44,20 @@ export const ContactsSection = () => {
                 <PhoneIcon />
               </a>
             </Tooltip>
-            <p>{contacts.phone}</p>
+            <p className="text-sm md:text-base">{contacts.phone}</p>
           </div>
           <div className="flex flex-row items-center gap-[10px]">
             <LocationIcon />
-            <p>{contacts.location}</p>
+            <p className="text-sm md:text-base">{contacts.location}</p>
           </div>
 
           <div className="flex flex-row items-center gap-[10px]">
             <a href={contacts.linkedIn} target="_blank">
               <LinkedInIcon />
             </a>
-            <p className="text-left">{contacts.linkedIn}</p>
+            <p className="text-left text-sm md:text-base">
+              {contacts.linkedIn}
+            </p>
           </div>
         </div>
       </Card>

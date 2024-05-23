@@ -25,7 +25,7 @@ export const Navigation = ({ currentSection }: { currentSection: string }) => {
 
   return (
     <nav ref={navRef}>
-      <ul className="flex flex-col max-lg:hidden lg:ml-32 2xl:ml-44 xl:ml-44 gap-[2px]">
+      <ul className="hidden xl:flex lg:flex-col lg:ml-32 xl:ml-44 gap-[2px]">
         {navList.map(({ id, title, href }) => (
           <li
             key={id}

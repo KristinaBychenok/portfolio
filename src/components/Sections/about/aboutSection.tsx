@@ -8,14 +8,16 @@ export const AboutSection = () => {
     setIsTextOpen(!isTextOpen)
   }
 
+  const pClassName = 'mb-3 lg:mb-5 text-sm md:text-base'
+
   return (
     <div className="flex flex-col items-start text-start">
-      <p className="mb-5">
+      <p className={pClassName}>
         I am a Frontend developer with almost 3 years of experience,
         specializing in technologies such as JavaScript, React, Redux,
         TypeScript, Next.js, Node.js
       </p>
-      <p className="mb-5">
+      <p className={pClassName}>
         Committed to delivering high-quality results, I’m dedicated to
         continuous improvement in the dynamic field of frontend development.
       </p>
@@ -23,7 +25,7 @@ export const AboutSection = () => {
         <Accordion onClick={handleOpenText}>More about me</Accordion>
         {isTextOpen && (
           <>
-            <p className="mb-5">
+            <p className={pClassName}>
               My role involves designing and implementing new features,
               refactoring complex code, organizing component hierarchies,
               providing hot-fixes, developing Storybook UI library, implementing
@@ -32,15 +34,15 @@ export const AboutSection = () => {
               carefully and possess strong soft skills, making me an effective
               team player.
             </p>
-            <p className="mb-5">
+            <p className={pClassName}>
               Having recently learned Node.js, I'm dedicated to continuous
               growth in the field of programming.
             </p>
-            <p className="mb-5">
+            <p className={pClassName}>
               I'm comfortable with agile methodologies, and have a B2
               proficiency level in English.
             </p>
-            <p className="mb-5">
+            <p className={pClassName}>
               In general, I'm a cheerful and enthusiastic individual. I love to
               travel, engage in sports, learn snowboarding, and enjoy dancing.
               Additionally, I have a deep affection for dogs, and my most loyal
@@ -49,7 +51,7 @@ export const AboutSection = () => {
           </>
         )}
       </div>
-      <p>Currently based in Wroclaw, Poland</p>
+      <p className="text-sm md:text-base">Currently based in Wroclaw, Poland</p>
     </div>
   )
 }
