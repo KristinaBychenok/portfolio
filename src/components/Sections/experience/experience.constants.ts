@@ -16,7 +16,7 @@ export const experience: Experience[] = [
     company: 'Freelance',
     location: 'Wroclaw, Poland',
     date: 'March 2024 - Current',
-    project: '- The platform for booking piercing services in Wrocław.',
+    project: 'the platform for booking piercing services in Wrocław.',
     stack: [
       'Next.js',
       'React',
@@ -44,7 +44,7 @@ export const experience: Experience[] = [
     location: 'Wroclaw, Poland',
     date: 'March 2024 - Current',
     project:
-      '- The platform for a construction company to display their services, book services, and showcase a gallery of completed projects.',
+      'the platform for a construction company to display their services, book services, and showcase a gallery of completed projects.',
     stack: [
       'Next.js',
       'React',
@@ -79,6 +79,7 @@ export const experience: Experience[] = [
       'React Router',
       'TypeScript',
       'Storybook',
+      'CSS Modules',
       'Jest',
       'Agile (Scrum)',
     ],

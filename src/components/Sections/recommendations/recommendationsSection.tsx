@@ -31,13 +31,14 @@ export const RecommendationsSection = () => {
           theme={customTheme}
           leftControl={<ArrowRightIcon />}
           rightControl={<ArrowLeftIcon />}
+          draggable={false}
         >
           {recommendations.map(
             ({ id, author, position, link, recommendationText, height }) => {
               return (
                 <div
                   key={`${id}-${author}`}
-                  className="flex flex-col items-start w-full h-full"
+                  className="flex flex-col items-start w-full justify-start absolute top-0 translate-y-0"
                 >
                   <div className="flex flex-row items-center gap-[10px]">
                     <p className="font-semibold">{author}</p>
@@ -45,13 +46,13 @@ export const RecommendationsSection = () => {
                       <LinkedInIcon size="20" />
                     </a>
                   </div>
-                  <p className="font-semibold text-sm">{position}</p>
+                  <p className="font-semibold text-sm text-start">{position}</p>
                   <div className="flex mt-2.5 relative">
                     <div className="absolute top-0 left-0">
                       <QuotesStart />
                     </div>
                     <p
-                      className={`italic font-light px-2.5 ${lineСlamp} cursor-grabbing`}
+                      className={`italic font-light px-2.5 text-sm md:text-base ${lineСlamp} cursor-grabbing h-fit`}
                       onMouseEnter={() => handleMouseEnter(height)}
                       onMouseLeave={handleMouseLeave}
                     >

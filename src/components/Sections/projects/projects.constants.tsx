@@ -64,6 +64,7 @@ export const projects: ProjectsType = [
       'React Router',
       'TypeScript',
       'Storybook',
+      'CSS Modules',
       'Jest',
       'Reselect Library',
       'GIT',

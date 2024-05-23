@@ -29,7 +29,7 @@ export const ExperienceSection = () => {
           description,
         }) => {
           return (
-            <Card key={title}>
+            <Card key={`${id}-${title}`}>
               <div className="flex flex-col justify-start text-start">
                 <h3 className="font-bold text-base">{title}</h3>
                 <h3 className="font-semibold text-sm md:text-base">{`${company}, ${location}`}</h3>
