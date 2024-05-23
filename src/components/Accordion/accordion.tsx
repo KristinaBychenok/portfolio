@@ -20,12 +20,12 @@ export const Accordion = ({ children, onClick }: AccordionProps) => {
   return (
     <button
       onClick={handleClick}
-      className="flex gap-[10px] py-2.5 px-5 mb-5 rounded-md hover:bg-yellow-100 hover:bg-opacity-50 hover:shadow-main active:bg-yellow-200 active:bg-opacity-50"
+      className="flex gap-[5px] mb:gap-[10px] py-2.5 px-3 mb:px-5 mb-5 items-center rounded-md hover:bg-yellow-100 hover:bg-opacity-50 hover:shadow-main active:bg-yellow-200 active:bg-opacity-50"
     >
       <div className={`${rotate} transition duration-300`}>
         <ArrowDownIcon />
       </div>
-      <p>{children}</p>
+      <p className="text-sm md:text-base">{children}</p>
     </button>
   )
 }

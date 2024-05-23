@@ -21,7 +21,7 @@ export const Footer = () => {
   }
 
   return (
-    <div className="flex flex-row gap-[20px] lg:ml-32 2xl:ml-44 xl:ml-44 max-lg:self-center max-lg:pt-6">
+    <div className="flex flex-row gap-[20px] ml-0 xl:ml-44 self-center xl:self-start pt-6 xl:pt-0 justify-center xl:justify-start">
       <a href={contacts.linkedIn} target="_blank">
         <LinkedInIcon />
       </a>

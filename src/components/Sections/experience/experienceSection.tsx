@@ -32,9 +32,9 @@ export const ExperienceSection = () => {
             <Card key={title}>
               <div className="flex flex-col justify-start text-start">
                 <h3 className="font-bold text-base">{title}</h3>
-                <h3 className="font-semibold">{`${company}, ${location}`}</h3>
-                <h3 className="italic">{date}</h3>
-                <p className="pt-2.5">{`Project: ${project}`}</p>
+                <h3 className="font-semibold text-sm md:text-base">{`${company}, ${location}`}</h3>
+                <h3 className="italic text-sm md:text-base">{date}</h3>
+                <p className="pt-2.5 text-sm md:text-base">{`Project: ${project}`}</p>
                 <div className="pt-2.5">
                   <Accordion onClick={() => handleOpenText(id)}>
                     Tasks Performed
@@ -42,12 +42,16 @@ export const ExperienceSection = () => {
                   {isTextOpen[id] && (
                     <div className="flex flex-col gap-[5px] pb-2.5">
                       {description.map((item, index) => {
-                        return <p key={index}>{item}</p>
+                        return (
+                          <p key={index} className="text-sm md:text-base">
+                            {item}
+                          </p>
+                        )
                       })}
                     </div>
                   )}
                 </div>
-                <div className="flex flex-row flex-wrap gap-[10px]">
+                <div className="flex flex-row flex-wrap gap-[5px] md:gap-[10px]">
                   {stack.map((skill) => (
                     <Badge key={skill}>{skill}</Badge>
                   ))}

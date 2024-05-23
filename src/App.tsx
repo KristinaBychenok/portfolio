@@ -7,6 +7,7 @@ import { navList } from './components/Navigation/navigation.constants'
 import { SectionWrapper } from './components/Sections/wrapper/sectionWrapper'
 import { Title } from './components/Title/title'
 import { ArrowDownIcon } from './components/Icons/arrowDown'
+import { NavbarBurger } from './components/Navigation/navbarBurger'
 
 function App() {
   const [currentSection, setCurrentSection] = useState<string>('about')
@@ -38,23 +39,26 @@ function App() {
   }, [handleScroll, currentSection])
 
   return (
-    <div className="flex max-lg:flex-col justify-center h-screen xl:px-8">
-      <div className="flex flex-col h-screen w-full justify-between max-lg:px-14 py-9 2xl:py-20 xl:py-16">
+    <div className="flex flex-col xl:flex-row justify-center h-screen xl:px-8 w-screen lg:w-full lg:max-w-[1440px]">
+      <div className="flex flex-col h-fit lg:h-screen w-full justify-between px-9 xl:px-0 py-9 xl:py-16 2xl:py-20">
         <Title />
-        <div className="flex flex-col gap-[20px] xl:gap-[30px] max-lg:w-1/2 max-lg:self-center">
+        <NavbarBurger currentSection={currentSection} />
+        <div className="hidden xl:flex flex-col gap-[20px] xl:gap-[30px] w-1/2 xl:w-full self-center xl:self-start">
           <Navigation currentSection={currentSection} />
           <a
             href="https://drive.google.com/file/d/1ZKcz4-NIC8jJJ8CQCJGanCzC1XtWWNAG/view"
             target="_blank"
-            className="flex justify-start lg:ml-32 xl:ml-44 w-64 max-lg:self-center"
+            className="hidden xl:flex justify-start xl:ml-44 w-64 self-center xl:self-start"
           >
             <Button isBlue={true}>Check CV PDF</Button>
           </a>
         </div>
-        <Footer />
+        <div className="hidden xl:flex">
+          <Footer />
+        </div>
       </div>
       <div
-        className="w-full pr-14 overflow-y-scroll mt-9 2xl:mt-20 2xl:pr-0 xl:mt-16 xl:pr-0 max-lg:pl-14"
+        className="w-full overflow-y-scroll mt-0 xl:mt-16 2xl:mt-20 px-6 sm:px-8 md:px-9 lg:px-10 xl:px-0"
         onScroll={handleScroll}
       >
         {navList.map(({ id, title, section }) => {

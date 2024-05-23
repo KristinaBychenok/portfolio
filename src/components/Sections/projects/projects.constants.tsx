@@ -158,7 +158,7 @@ export const projects: ProjectsType = [
         link to the code on GitHub:{' '}
         <a
           href="https://github.com/KristinaBychenok/portfolio.git"
-          className="font-bold"
+          className="font-bold text-sm md:text-base break-words"
           target="_blank"
         >
           https://github.com/KristinaBychenok/portfolio.git

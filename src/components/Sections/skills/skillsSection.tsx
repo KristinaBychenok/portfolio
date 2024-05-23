@@ -9,9 +9,11 @@ export const SkillsSection = () => {
         {skills.map(({ name, skills }) => {
           return (
             <div key={name} className="w-full">
-              <div className="flex flex-col gap-[10px]">
-                <h3 className="text-start font-semibold">{name}</h3>
-                <div className="flex flex-row flex-wrap gap-[10px]">
+              <div className="flex flex-col gap-[5px] md:gap-[10px]">
+                <h3 className="text-start font-semibold text-sm md:text-base">
+                  {name}
+                </h3>
+                <div className="flex flex-row flex-wrap gap-[5px] md:gap-[10px]">
                   {skills.map((skill) => (
                     <Badge key={skill}>{skill}</Badge>
                   ))}

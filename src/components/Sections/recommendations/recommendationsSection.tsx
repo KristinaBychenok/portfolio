@@ -10,7 +10,7 @@ import { Card } from '../../Card/card'
 
 export const RecommendationsSection = () => {
   const [wrapperHeight, setWrapperHeight] = useState('h-[180px]')
-  const [lineСlamp, setlineСlamp] = useState('line-clamp-5')
+  const [lineСlamp, setlineСlamp] = useState('line-clamp-4 sm:line-clamp-5')
 
   const handleMouseEnter = useCallback((height: string) => {
     setWrapperHeight(height)
@@ -19,7 +19,7 @@ export const RecommendationsSection = () => {
 
   const handleMouseLeave = useCallback(() => {
     setWrapperHeight('h-[180px]')
-    setlineСlamp('line-clamp-5')
+    setlineСlamp('line-clamp-4 sm:line-clamp-5')
   }, [])
 
   return (
@@ -37,7 +37,7 @@ export const RecommendationsSection = () => {
               return (
                 <div
                   key={`${id}-${author}`}
-                  className="flex flex-col items-start w-full"
+                  className="flex flex-col items-start w-full h-full"
                 >
                   <div className="flex flex-row items-center gap-[10px]">
                     <p className="font-semibold">{author}</p>
@@ -46,7 +46,7 @@ export const RecommendationsSection = () => {
                     </a>
                   </div>
                   <p className="font-semibold text-sm">{position}</p>
-                  <div className="flex mt-2.5  relative">
+                  <div className="flex mt-2.5 relative">
                     <div className="absolute top-0 left-0">
                       <QuotesStart />
                     </div>

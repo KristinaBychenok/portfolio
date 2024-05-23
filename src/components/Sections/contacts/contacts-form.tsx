@@ -86,14 +86,16 @@ export const ContactsForm = () => {
   return (
     <Card>
       <div className="flex flex-col gap-[20px] w-full items-start">
-        <p>Feel free to reach out to me for any questions or opportunities!</p>
+        <p className="text-sm md:text-base">
+          Feel free to reach out to me for any questions or opportunities!
+        </p>
         <form
-          className="flex flex-col gap-4 w-full"
+          className="flex flex-col gap-[5px] md:gap-4 w-full"
           ref={form}
           onSubmit={sendEmail}
         >
-          <div className="flex flex-row gap-[10px]">
-            <div className="w-1/2 flex flex-col items-start">
+          <div className="flex flex-col md:flex-row gap-[5px] md:gap-[10px]">
+            <div className="w-full md:w-1/2 flex flex-col items-start">
               <div className="mb-2 block">
                 <Label
                   htmlFor="name"
@@ -112,7 +114,7 @@ export const ContactsForm = () => {
                 onChange={handleChangeUserName}
               />
             </div>
-            <div className="w-1/2 flex flex-col items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-start">
               <div className="mb-2 bloc self-start">
                 <Label htmlFor="email1" value="Your Email" />
               </div>
@@ -151,7 +153,7 @@ export const ContactsForm = () => {
               isDisable
                 ? 'bg-gray-300 bg-opacity-50 cursor-default'
                 : 'bg-yellow-100 bg-opacity-50 cursor-pointer hover:shadow-main active:bg-yellow-200 active:bg-opacity-50'
-            } w-full py-2.5 px-5 rounded-lg focus:outline-none focus-visible:outline-none`}
+            } w-full py-2.5 px-5 rounded-lg focus:outline-none focus-visible:outline-none text-sm md:text-base`}
           />
         </form>
         {alert.isShow && (
