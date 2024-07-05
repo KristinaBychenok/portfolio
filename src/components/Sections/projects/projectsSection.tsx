@@ -67,7 +67,7 @@ export const ProjectsSection = () => {
                                 src={src}
                                 alt={`project image-${id}-${index}`}
                                 key={src}
-                                width="100% md:70%"
+                                width="90% md:70%"
                                 className="mb-5 rounded-2xl shadow-main bg-white bg-opacity-10 self-center"
                               />
                               <p className="py-5 text-sm md:text-base leading-relaxed text-gray-500 dark:text-gray-400">

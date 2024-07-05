@@ -257,24 +257,55 @@ export const projects: ProjectsType = [
     ),
     clarification: (
       <p>
-        Additionally, the project requires content to be displayed in English,
-        Russian, Ukrainian, French, Dutch, Italian, and German languages. For
-        this functionality, I'm using
-        <span className="font-bold"> i18next</span>.
+        In this project, a responsive design was implemented, catering to
+        various screens such as{' '}
+        <span className="font-bold">
+          desktops, laptops, tablets, and phones
+        </span>
+        .
       </p>
     ),
     imgs: [
       {
-        src: `${BASE_URL}development-page.png`,
+        src: `${BASE_URL}ned-main-screen.png`,
+        text: 'Tablet screen:',
+      },
+      {
+        src: `${BASE_URL}ned-tablet-screen.png`,
+        text: 'Phone screen:',
+      },
+      {
+        src: `${BASE_URL}ned-phone-screen.png`,
         text: (
           <p>
-            <span className="font-bold">
-              Designs are also under development.
-            </span>{' '}
-            The platform will include information about the construction
-            company, work portfolios with photos and descriptions, and reviews.
+            Additionally, the project requires content to be displayed in
+            English, Russian, Ukrainian, French, Dutch, Italian, and German
+            languages. For this functionality, I'm using
+            <span className="font-bold"> i18next</span>.
           </p>
         ),
+      },
+      {
+        src: `${BASE_URL}ned-langs.png`,
+        text: (
+          <p>
+            The platform includes information about the construction company,
+            services with descriptions, and contacts section.
+          </p>
+        ),
+      },
+      {
+        src: `${BASE_URL}ned-contacts.png`,
+        text: (
+          <p>
+            This is the Services section. By clicking on a card, an accordion
+            opens, allowing you to see what is included in each service.
+          </p>
+        ),
+      },
+      {
+        src: `${BASE_URL}ned-services.png`,
+        text: '',
       },
     ],
     stack: [
