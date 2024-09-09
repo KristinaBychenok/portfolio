@@ -177,70 +177,6 @@ export const projects: ProjectsType = [
   },
   {
     id: 3,
-    name: 'Daryauo piercing',
-    description: 'The platform for booking piercing services in Wrocław.',
-    text: (
-      <p>
-        <p>
-          This project is currently under development. I'm using technologies
-          such as{' '}
-          {<span className="font-bold">Next.js, React, Redux Toolkit</span>} for
-          its creation. Styles were written using{' '}
-          {<span className="font-bold">Tailwind CSS and MUI</span>}.
-        </p>
-      </p>
-    ),
-    clarification: (
-      <p>
-        Additionally, the project requires content to be displayed in Polish,
-        Russian, and English languages. For this functionality, I'm using
-        <span className="font-bold"> i18next</span>.
-      </p>
-    ),
-    imgs: [
-      {
-        src: `${BASE_URL}daryauo-piercing-page.png`,
-        text: (
-          <p>
-            The platform will include information about the piercing studio,
-            work portfolios with photos and descriptions, and reviews.
-          </p>
-        ),
-      },
-      {
-        src: `${BASE_URL}daryauo-piercing-form.png`,
-        text: (
-          <p>
-            The main feature at the moment is a form that users fill out to book
-            a procedure. After the user completes this form, I validate it and
-            send it to the server for further notifications about their booking.
-          </p>
-        ),
-      },
-    ],
-    stack: [
-      'Next.js',
-      'React',
-      'Redux Toolkit',
-      'TypeScript',
-      'Tailwind CSS',
-      'MUI',
-      'i18next',
-      'GIT',
-    ],
-    team: '1 Front-end developer, 1 Back-end developer, Designer',
-    tasks: [
-      '- Designed and developed robust solutions meeting client requirements for functionality, scalability, and performance.',
-      '- Worked with the React framework and Next.js, applying extensive experience in TypeScript and utilizing Redux to develop an application.',
-      '- Developed a project enabling users to book a piercing procedure, including a form for submission, form validation, and the creation of new components and hooks.',
-      '- Implemented functionality for language switching to view content in different languages.',
-      '- Optimized application for improved user performance, conducted code refactoring, and enhanced overall functionality.',
-      '- Integrated the backend to send data from the validated form to the server for further user notification about the booking, working with API requests.',
-      '- Developed screen layouts with information about the piercing studio, using the MUI library and Tailwind CSS.',
-    ],
-  },
-  {
-    id: 4,
     name: 'New Energy Development s.r.o.',
     description:
       'The platform for a construction company in France to display their services, book services, and showcase a gallery of completed projects.',
@@ -252,6 +188,19 @@ export const projects: ProjectsType = [
           {<span className="font-bold">Next.js, React, Redux Toolkit</span>} for
           its creation. Styles were written using{' '}
           {<span className="font-bold">Tailwind CSS and MUI</span>}.
+        </p>
+        <p className="pt-3">
+          This project was deployed using the{' '}
+          <span className="font-bold">Vercel Platform</span> and it is available
+          at the link:{' '}
+          <a
+            href="https://www.nedfr.com/"
+            target="_blank"
+            className="font-bold"
+          >
+            https://www.nedfr.com/
+          </a>
+          .
         </p>
       </p>
     ),
@@ -326,6 +275,70 @@ export const projects: ProjectsType = [
       '- Implemented functionality for language switching to view content in different languages.',
       '- Optimized application for improved user performance, conducted code refactoring, and enhanced overall functionality.',
       '- Developed screen layouts with information about the construction company, using the MUI library and Tailwind CSS.',
+    ],
+  },
+  {
+    id: 4,
+    name: 'Daryauo piercing',
+    description: 'The platform for booking piercing services in Wrocław.',
+    text: (
+      <p>
+        <p>
+          This project is currently under development. I'm using technologies
+          such as{' '}
+          {<span className="font-bold">Next.js, React, Redux Toolkit</span>} for
+          its creation. Styles were written using{' '}
+          {<span className="font-bold">Tailwind CSS and MUI</span>}.
+        </p>
+      </p>
+    ),
+    clarification: (
+      <p>
+        Additionally, the project requires content to be displayed in Polish,
+        Russian, and English languages. For this functionality, I'm using
+        <span className="font-bold"> i18next</span>.
+      </p>
+    ),
+    imgs: [
+      {
+        src: `${BASE_URL}daryauo-piercing-page.png`,
+        text: (
+          <p>
+            The platform will include information about the piercing studio,
+            work portfolios with photos and descriptions, and reviews.
+          </p>
+        ),
+      },
+      {
+        src: `${BASE_URL}daryauo-piercing-form.png`,
+        text: (
+          <p>
+            The main feature at the moment is a form that users fill out to book
+            a procedure. After the user completes this form, I validate it and
+            send it to the server for further notifications about their booking.
+          </p>
+        ),
+      },
+    ],
+    stack: [
+      'Next.js',
+      'React',
+      'Redux Toolkit',
+      'TypeScript',
+      'Tailwind CSS',
+      'MUI',
+      'i18next',
+      'GIT',
+    ],
+    team: '1 Front-end developer, 1 Back-end developer, Designer',
+    tasks: [
+      '- Designed and developed robust solutions meeting client requirements for functionality, scalability, and performance.',
+      '- Worked with the React framework and Next.js, applying extensive experience in TypeScript and utilizing Redux to develop an application.',
+      '- Developed a project enabling users to book a piercing procedure, including a form for submission, form validation, and the creation of new components and hooks.',
+      '- Implemented functionality for language switching to view content in different languages.',
+      '- Optimized application for improved user performance, conducted code refactoring, and enhanced overall functionality.',
+      '- Integrated the backend to send data from the validated form to the server for further user notification about the booking, working with API requests.',
+      '- Developed screen layouts with information about the piercing studio, using the MUI library and Tailwind CSS.',
     ],
   },
 ]
