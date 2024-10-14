@@ -341,6 +341,66 @@ export const projects: ProjectsType = [
       '- Developed screen layouts with information about the piercing studio, using the MUI library and Tailwind CSS.',
     ],
   },
+  {
+    id: 5,
+    name: 'Blog App',
+    description: 'The blogging platform for writing and reading posts.',
+    text: (
+      <p>
+        <p>
+          I created this project to learn and gain skills in using technologies
+          like {<span className="font-bold">Node.js, Express, and Docker</span>}
+          .
+        </p>
+        <p>
+          Here is the link to the code on GitHub:{' '}
+          <a
+            href="https://github.com/KristinaBychenok/blog-docker-app"
+            className="font-bold text-sm md:text-base break-words"
+            target="_blank"
+          >
+            https://github.com/KristinaBychenok/blog-docker-app
+          </a>
+        </p>
+      </p>
+    ),
+    clarification: (
+      <p>
+        <p>
+          I created a <span className="font-bold">Node.js server</span> using{' '}
+          <span className="font-bold">Express.js</span> and implemented routing
+          along with dynamic routes. To manage the database, I integrated{' '}
+          <span className="font-bold">MongoDB and Mongoose</span>.
+        </p>
+        <p>
+          Additionally, I developed an authentication flow that protects routes
+          and hashes passwords. For the SignIn and Login processes, I utilized{' '}
+          <span className="font-bold">JSON Web Token (JWT)</span>. To ensure
+          input validation, I added{' '}
+          <span className="font-bold">express-validator</span>, and I also set
+          up and established <span className="font-bold">WebSockets</span> for
+          real-time communication.
+        </p>
+        <p>
+          Furthermore, I wrote a <span className="font-bold">Dockerfile</span>{' '}
+          and created a <span className="font-bold">Docker Image</span>, which I
+          then pushed to the{' '}
+          <span className="font-bold">Amazon Elastic Container Registry</span>{' '}
+          (ECR). Lastly, I created a{' '}
+          <span className="font-bold">Docker Compose</span> file and run the
+          Docker Containers.
+        </p>
+      </p>
+    ),
+    stack: [
+      'React',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Docker',
+      'Amazon Elastic Container Registry (ECR)',
+    ],
+  },
 ]
 
 export const customTheme = {

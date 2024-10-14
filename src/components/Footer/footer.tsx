@@ -6,6 +6,7 @@ import {
   contacts,
   customTooltipTheme,
 } from '../Sections/contacts/contacts.constants'
+import { GithubIcon } from '../Icons/github'
 
 export const Footer = () => {
   const phoneNumber = contacts.phone
@@ -24,6 +25,9 @@ export const Footer = () => {
     <div className="flex flex-row gap-[20px] ml-0 xl:ml-44 self-center xl:self-start pt-6 xl:pt-0 justify-center xl:justify-start">
       <a href={contacts.linkedIn} target="_blank">
         <LinkedInIcon />
+      </a>
+      <a href={contacts.github} target="_blank">
+        <GithubIcon />
       </a>
       <Tooltip
         theme={customTooltipTheme}

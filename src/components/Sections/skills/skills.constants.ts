@@ -23,6 +23,10 @@ export const skills = [
       'Reselect Lib',
       'Webpack',
       'Vite',
+      'Docker',
+      'AWS IAM',
+      'AWS Amplify',
+      'Amazon Elastic Container Registry (ECR)',
     ],
   },
   {

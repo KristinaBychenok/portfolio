@@ -3,6 +3,7 @@ export const contacts = {
   phone: '48 573 323 806',
   location: 'Wroclaw, Poland',
   linkedIn: 'https://www.linkedin.com/in/kristina-bychenok-484681222',
+  github: 'https://github.com/KristinaBychenok',
 }
 
 export const customLableTheme = {
@@ -18,19 +19,16 @@ export const customInputTheme = {
     input: {
       base: 'block w-full border focus:border-none bg-blue-500 bg-opacity-50',
       colors: {
-        gray:
-          'bg-gray-50 border-none text-gray-900 focus:shadow-main focus:ring-transparent',
+        gray: 'bg-gray-50 border-none text-gray-900 focus:shadow-main focus:ring-transparent',
       },
     },
   },
 }
 
 export const customTextareaTheme = {
-  base:
-    'block w-full rounded-lg border focus:border-none bg-blue-500 bg-opacity-50',
+  base: 'block w-full rounded-lg border focus:border-none bg-blue-500 bg-opacity-50',
   colors: {
-    gray:
-      'bg-gray-50 border-none text-gray-900 focus:shadow-main focus:ring-transparent',
+    gray: 'bg-gray-50 border-none text-gray-900 focus:shadow-main focus:ring-transparent',
   },
 }
 

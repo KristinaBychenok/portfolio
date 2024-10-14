@@ -36,7 +36,8 @@ export const AboutSection = () => {
             </p>
             <p className={pClassName}>
               Having recently learned Node.js, I'm dedicated to continuous
-              growth in the field of programming.
+              growth in the field of programming. I'm also continuing to study
+              and actively use AWS and Docker in my pet projects.
             </p>
             <p className={pClassName}>
               I'm comfortable with agile methodologies, and have a B2
