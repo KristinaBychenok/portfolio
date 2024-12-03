@@ -13,6 +13,7 @@ export const skills = [
       'NEXT.js',
       'Node.js',
       'Express',
+      'WebSockets',
       'SQL',
       'Sequelize',
       'Material-UI',

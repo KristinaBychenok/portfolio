@@ -13,9 +13,9 @@ export const AboutSection = () => {
   return (
     <div className="flex flex-col items-start text-start">
       <p className={pClassName}>
-        I am a Frontend developer with almost 3 years of experience,
-        specializing in technologies such as JavaScript, React, Redux,
-        TypeScript, Next.js, Node.js
+        I am a Frontend developer with 3 years of experience, specializing in
+        technologies such as JavaScript, React, Redux, TypeScript, Next.js,
+        Node.js
       </p>
       <p className={pClassName}>
         Committed to delivering high-quality results, I’m dedicated to
