@@ -65,6 +65,7 @@ export const projects: ProjectsType = [
       'TypeScript',
       'Storybook',
       'CSS Modules',
+      'React Hook Form',
       'Jest',
       'Reselect Library',
       'GIT',

@@ -20,6 +20,7 @@ export const skills = [
       'Lodash',
       'Tailwind CSS',
       'CSS Modules',
+      'React Hook Form',
       'Flowbite React',
       'Reselect Lib',
       'Webpack',
